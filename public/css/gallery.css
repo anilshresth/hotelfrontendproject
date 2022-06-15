@@ -1,0 +1,38 @@
+.gallery-banner {
+  position: relative;
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+.gallery-banner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: linear-gradient(to bottom, #000, #000);
+  opacity: 0.4;
+}
+
+.gallery-banner p {
+  position: relative;
+  font-size: 30px;
+  color: #fff;
+}
+
+.gallery-links-wrapper .nav-link {
+  color: #000;
+}
+.gallery-links-wrapper .gallery-links {
+  color: #000;
+}
+
+.gallery-box {
+  display: none;
+}
+
+.show {
+  display: block;
+}

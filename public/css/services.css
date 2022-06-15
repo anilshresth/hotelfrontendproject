@@ -1,0 +1,98 @@
+.dining-banner {
+  height: 550px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dining-banner > div > p {
+  font-family: "Bitter", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.dining-padding {
+  padding: 20px 15px;
+}
+
+.dining-padding > div:first-child {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.dining-padding > div:first-child span:first-child {
+  color: rgb(203, 131, 14);
+}
+
+.dining-intro {
+  text-align: justify;
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+.services-wrapper {
+  position: relative;
+  border-top: 2px solid #f69731;
+  border-bottom: 2px solid #f69731;
+  overflow: hidden;
+  padding: 0 10px;
+}
+
+.services-wrapper::before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 20px;
+  width: 80px;
+  left: -20px;
+  top: -16px;
+  transform: rotate(-45deg);
+  background: #f69731;
+}
+
+.services-wrapper::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 20px;
+  width: 80px;
+  right: -35px;
+  bottom: 0;
+  transform: rotate(-45deg);
+  background: #f69731;
+}
+
+.services-content {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.services-content img {
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  background: #f69731;
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 13%;
+}
+
+.services-name {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Bitter", sans-serif;
+  color: #423d3d;
+  text-align: center;
+  padding-top: -10px;
+}
+
+.services-wrapper {
+  margin-bottom: 30px;
+}

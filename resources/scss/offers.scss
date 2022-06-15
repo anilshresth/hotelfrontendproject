@@ -1,0 +1,28 @@
+// *{
+//     padding:0;
+//     margin:0;
+//     box-sizing: content-box;
+// }
+
+.offer-background{
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    height:500px;
+}
+.offer-background > div >p{
+    color:#fff;
+    font-size:2rem;
+    text-transform: capitalize;
+}
+.offer-images-wrapper{
+    padding:40px 0;
+}
+.offer-images{
+    height: 420px;
+    object-fit: cover;
+    object-position: center;
+}
+.offer-text{
+    padding:10px 0;
+}

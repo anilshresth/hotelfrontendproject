@@ -1,0 +1,60 @@
+ .about-image{
+  background-repeat: no-repeat;
+  background-size: cover cover;
+  background-position:left;
+  height:500px;
+ }
+ .about-image > div{
+   font-size: 2rem;
+   color:#fff;
+ }
+ .about-us-title{
+   padding:30px 0;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-weight: 800;
+   span{
+     color: rgb(160, 85, 9);
+   }
+ }
+ 
+ .short-intro-about{
+    font-size: 1.3rem;;
+    padding:1.5rem;
+ }
+
+.img-wrapper{
+  position: relative;
+  max-width: 100%;
+  overflow-x: hidden;
+
+
+  img{
+    object-fit: cover;
+    height: 320px;
+   aspect-ratio: 1/1;
+  }
+}
+.image3{
+  padding:8px;
+  background-color: #fff;
+  position: absolute;
+  top:80px;
+  left:30%;
+  overflow: hidden;
+  
+}
+.image2{
+  padding:8px;
+  background-color: #fff;
+  position: relative;
+  margin-top: -60px;
+  margin-bottom:20px;
+  left:15px;
+}
+.about-us-intro{
+  font-size: 1.2rem;
+  text-align: justify;
+  padding-bottom: 20px;
+
+}

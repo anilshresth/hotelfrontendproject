@@ -1,0 +1,467 @@
+
+// introduction section starts
+.intro-text {
+    color:brown;
+
+}
+// introduction section ends
+
+// accomodation starts
+.accomodation{
+    background-color:rgb(203, 200, 200);
+    padding:20px 0;
+    h4{
+        padding:20px 0;
+    }
+}
+.intro p{
+    text-align: justify;
+}
+.box-content{
+    margin:10px 0;
+}
+.room-name{
+    font-weight: 500;
+    font-size:20px;
+    
+}
+.room-detail{
+    font-size: 18px;
+    color:rgb(128, 45, 45);
+    
+
+  
+    i{
+        font-size: 18px;
+        color:rgb(128, 45, 45);
+    }
+}
+.box-content a{
+   transition: all 0.5s ease-out;
+  
+
+}
+.room-description{
+    text-align: justify;
+    color:rgb(96, 96, 97);
+}
+.box-content{
+    a{
+        text-decoration: none;
+        text-decoration-color:rgb(128, 45, 45);
+    }
+    a:hover{
+        color:rgb(145, 25, 25);
+    }
+   
+}
+.box-detail{
+    background-color: #fff;
+    padding:15px;
+}
+// accomodation ends
+
+
+// services starts
+
+.availabel-services{
+   padding:30px;
+}
+.image-fluid-box{
+   height: 70vh;;
+   img{
+       object-fit: cover;
+       object-position: center;
+   }
+}
+.services-image{
+    height: 100%;
+    width: 100%;
+
+}
+.services-content-box{
+
+    background-color: rgb(187, 49, 49);
+    height: 100%;
+    width:100%;
+}
+.services-content-box{
+    padding:40px 40px 10px 40px;
+    h2{
+        color:#fff;
+        font-family: 'Bitter',serif;
+    }
+    .service-short-header{
+        color:#fff;
+        font-family: 'Bitter',serif;
+        text-transform: capitalize;
+    }
+    p{
+        color:#fff;
+        font-family: 'Bitter',serif;
+        text-align: justify;
+    }
+
+}
+.services-block{
+    padding:20px;
+    height: 130px;
+    width:120px;
+    box-shadow: 2px 2px rgb(203, 200, 200);
+   
+   
+    background-color: #fff;
+    p{
+        color:#000;
+        font-size:20px;
+       
+    }
+}
+.services-block-bg-changed{
+    padding:20px;
+    height: 130px;
+    width:100px;
+    box-shadow: 2px 2px rgb(203, 200, 200);
+
+    background-color: rgb(237, 228, 228);
+
+}
+.service-image{
+    padding:20px;
+    height: 100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size:contain;
+    
+}
+// .services-name{
+//     padding-bottom:5px;
+// }
+
+.service-slider{
+   position:relative;
+
+    
+}
+.service-slider .owl-nav{
+    position: absolute;
+    top:7%;
+    right:10%;
+    display: block;
+    color:#fff;
+    
+
+}
+.service-slider  .owl-prev,.service-slider  .owl-next{
+    position:absolute;
+    // border:2px solid #fff;
+    i{
+        font-size: 20px;
+    }
+    i:hover{
+        color:rgb(163, 97, 22);
+    }
+}
+.service-slider{
+    .owl-nav{
+        .owl-prev{
+            left:20px;
+            i{
+                border:2px solid #fff;
+                padding:20px;
+            }
+        }
+    }
+}
+.service-slider{
+    .owl-nav{
+        .owl-next{
+            left:60px;
+            i{
+                border:2px solid #fff;
+                padding:20px;
+            }
+        }
+    }
+}
+
+//services ends
+
+
+
+// photo section starts
+.photo-gallery-section{
+   
+    margin:auto;
+    padding:60px 0px;
+}
+.gallery-wrapper{
+    h3{
+        text-transform: uppercase;
+      
+
+    }
+}
+.photo-gallery-slider{
+    position: relative;
+    padding-top:20px;
+}
+
+.photo-gallery-slider .owl-item{
+    margin-right:30px;
+    // aspect-ratio: 1 /1 !important;
+    padding:20px 0;
+    
+    width:auto;
+    overflow: hidden;
+}
+    
+.photo-gallery-slider .owl-item  img{
+    display: block;
+    aspect-ratio: 1/1;
+    background-repeat: no-repeat;
+    object-fit: cover cover;
+   
+}
+.photo-gallery-slider .owl-nav{
+    position:absolute;
+    top: -10%;;
+    right:20%;
+
+}
+.photo-gallery-slider  .owl-prev{
+    position:absolute;
+    padding: 10px;
+    border:2px solid #000;
+    i{
+        font-size: 30px;
+    }
+    i:hover{
+        color:rgb(163, 97, 22);
+    }
+}
+.photo-gallery-slider  .owl-next{
+    position:absolute;
+    padding: 10px;
+    border:2px solid #000;
+    i{
+        font-size: 30px;
+    }
+    i:hover{
+        color:rgb(163, 97, 22);
+    }
+}
+.photo-gallery-slider{
+    .owl-nav{
+        .owl-prev{
+            left:29px;
+            i{
+                border:2px solid #000;
+                padding:5px;
+            }
+        }
+    }
+}
+.photo-gallery-slider{
+    .owl-nav{
+        .owl-next{
+            left:60px;
+            i{
+                border:2px solid #000;
+                padding:5px;
+            }
+        }
+    }
+}
+.photo-box{
+    position: relative;
+    left:0;
+}
+.photo-hover{
+    height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+    position: absolute;
+    padding:10px;
+    opacity: 0;
+}
+
+
+.photo-hover:hover{
+    max-height: 93%;
+    width: 100%;
+    left:0;
+    top:0;
+    position: absolute;
+    padding:10px;
+    opacity: 1;
+   
+
+
+}
+.photo-cover-inner{
+    background-color: rgba(#000,0.4);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    i{
+        font-size: 20px;
+        color:#fff;
+        padding:10px;
+    }
+
+   
+
+}
+.photo-text{
+    position: absolute;
+    left:30%;
+    top:50%;
+    p{
+        color:#fff;
+        text-transform: capitalize;
+    }
+}
+
+// photosection ends
+
+// customer review section
+.customer-section{
+    padding:40px 0;
+    background-color: rgb(245, 225, 225);
+}
+.review-text{
+    padding:5px;
+    border-radius: 15px;
+}
+.customer-section{
+    h3{
+        text-transform: uppercase;
+        word-spacing: 2px;
+        padding:10px;
+    }
+}
+.review-text{
+    text-align: justify;
+    background-color: rgb(173, 173, 173);
+    padding:15px;
+}
+.customer-review-box{
+    .triangle{
+        height: 70px;
+        width:70px;
+        margin-left:10px;
+        background-color: rgb(173, 173, 173) ;
+        clip-path: polygon(33% 0, 0 0, 1% 68%);
+    }
+}
+.reviewers{
+    ul{
+        list-style-type: none;
+        padding: 0;
+        li{
+            display: inline;
+        }
+    }
+}
+.reviewers{
+    padding-top:-10px;
+}
+.customer-btn{
+    a{
+        text-decoration: none;
+        text-transform: capitalize;
+        color:rgb(172, 24, 24);
+
+    }
+}
+.customer-btn:hover{
+
+    letter-spacing: 1px;
+  
+}
+//customer review section ends
+
+// blog section starts
+.blog-section{
+    position: relative;
+    left:0;
+    padding-top:40px;
+    padding-bottom:40px;
+    
+    h3{
+        text-transform: uppercase;
+    }
+  
+}
+.blog-padding{
+    padding:10px;
+
+}
+.blog-content{
+    position: relative;
+ 
+}
+.blog-text-wrapper{
+    padding:15px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgb(218, 210, 210);
+}
+.blog-title{
+    padding:10px 0px;
+    text-transform: capitalize;
+    font-size:1.3rem;
+}
+.blog-text{
+    text-align: justify;
+}
+
+
+.blog-text-wrapper{
+    position: relative;
+    top:-75px;
+    max-width:90%;
+    left:15px;
+
+
+}
+.blog-image{
+    img{
+      object-fit: cover;
+      object-position: center;
+      height: 350px;
+      width:auto;
+
+    }
+}
+
+//blog section ends
+.lb-outerContainer{
+    position: relative;
+}
+.lb-nav{
+    position: absolute;
+    top:20%;
+    left:-40%;
+}
+
+  
+.lb-nav .lb-prev{
+        position:absolute;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+
+    .service-slider .owl-nav{
+    position: absolute;
+    top:7%;
+    left:65%;
+    color:#fff;
+    
+
+}
+}

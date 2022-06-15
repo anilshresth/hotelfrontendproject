@@ -1,0 +1,71 @@
+.dining-banner {
+  height: 550px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dining-banner > div > p {
+  font-family: "Bitter", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.dining-padding {
+  padding: 20px 0;
+}
+
+.dining-padding > div:first-child {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.dining-padding > div:first-child span:first-child {
+  color: rgb(203, 131, 14);
+}
+
+.dining-intro {
+  text-align: justify;
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+.dining-brief {
+  padding: 20px 15px 20px 20px;
+  text-align: justify;
+  font-family: "Playfair Display", sans-serif;
+}
+
+.dining-image-title {
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.dining-btn {
+  display: inline-block;
+  padding: -5px;
+  border: 2px solid rgb(224, 99, 9);
+  border-radius: 20px;
+}
+
+.dining-detail {
+  color: rgb(224, 99, 9);
+  padding-left: 5px;
+}
+.dining-detail i {
+  padding: 5px;
+  background-color: rgb(246, 136, 25);
+  color: #fff;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.dining-row {
+  margin-bottom: 60px;
+}
+
+.dining-row:hover {
+  box-shadow: 5px 5px 10px rgb(232, 227, 227), -5px -5px 5px rgb(232, 227, 227);
+}

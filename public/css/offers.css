@@ -1,0 +1,28 @@
+.offer-background {
+  background-size: cover;
+  background-position: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.offer-background > div > p {
+  color: #fff;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.offer-images-wrapper {
+  padding: 40px 0;
+}
+
+.offer-images {
+  height: 420px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.offer-text {
+  padding: 10px 0;
+}
